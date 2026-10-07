@@ -155,3 +155,34 @@ blockquote span{
     font-weight: 600;
 
 }
+.cta-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.call-to-action{
+    padding: 20px 20px;
+    background-color: #3882F6; 
+    display: flex;
+    justify-content: space-evenly;
+    width: 880px;
+    border-radius: 20px;
+}
+
+
+.call-to-action .btn{
+
+    padding: 6px 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
