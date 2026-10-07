@@ -105,3 +105,53 @@ a:hover{
     background-color: #F9FAF8;
     color: #3882F6;
 }
+
+.main-heading{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.main-section{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 50px;
+}
+
+.info{
+    max-width: 200px;
+
+}
+
+.info img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+.info p{
+    text-align: center;
+    color: #1F2937;
+}
+
+.quote-section{
+    padding: 40px;
+    background-color: #E5E7EB;
+}
+
+blockquote p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+
+}
+blockquote span{
+    font-weight: 600;
+
+}
