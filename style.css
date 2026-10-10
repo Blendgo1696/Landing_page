@@ -140,7 +140,7 @@ a:hover{
 }
 
 .quote-section{
-    padding: 40px;
+    padding: 80px;
     background-color: #E5E7EB;
 }
 
@@ -163,12 +163,14 @@ blockquote span{
 }
 
 .call-to-action{
-    padding: 20px 20px;
+    padding: 40px 20px;
     background-color: #3882F6; 
     display: flex;
     justify-content: space-evenly;
     width: 880px;
     border-radius: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 
@@ -179,10 +181,26 @@ blockquote span{
     color: #F9FAF8;
     border: 2px solid #F9FAF8;
     border-radius: 8px;
-    border: none;
     outline: none;
     font-size: 18px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.call-to-action .btn:hover{
+    background-color: #f9faf8;
+    color: #3882F6;
+
+}
+
+.call-to-action .text{
+    color: #E5E7EB;
+}
+
+.footer{
+    padding: 30px 10px;
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
